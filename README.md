@@ -23,7 +23,7 @@ pip install -r requirements.txt
 
 # Run the server
 uvicorn main:app --reload
-
+```
 themathrepo/
 ├── backend/                          # 后端服务（FastAPI + Python）
 │   ├── main.py                       # 🚀 后端入口文件
