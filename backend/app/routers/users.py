@@ -5,10 +5,7 @@ from app.models.user import User
 from app.routers.deps import get_current_user
 
 
-router = APIRouter(
-    prefix="/users",
-    tags=["Users"],
-)
+router = APIRouter()
 
 
 @router.get(
